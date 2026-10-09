@@ -1,0 +1,307 @@
+dupes 0 missing 7 <StringArray>
+['2026-03']
+Length: 1, dtype: str
+                          2024    2025
+label_as_published                    
+AGO (Light Diesel Oil)  2193.6  2419.1
+Aviation Gasoline          1.1     1.2
+Illuminating Kerosene     37.1    44.1
+Jet Oil                  250.1   413.3
+LPG                     1472.7  1657.5
+Motor Spirit             732.3   701.3
+Other                    414.9   476.0 5101.81 5712.48
+                          AGO   PMS    LPG      IK    JET     FO
+AGO (Light Diesel Oil)    0.0  49.0  428.7  5812.7  186.7  626.6
+Aviation Gasoline      -100.0 -99.9  -99.7   -97.1  -99.9  -99.6
+Illuminating Kerosene   -98.3 -97.5  -91.1     0.1  -95.1  -87.7
+Jet Oil                 -88.6 -83.0  -39.7   574.2  -67.3  -17.2
+LPG                     -32.9  -0.0  255.0  3869.5   92.5  387.8
+Motor Spirit            -66.6 -50.3   76.5  1874.0   -4.3  142.6
+Other                   -81.1 -71.8   -0.0  1018.3  -45.8   37.4
+                 2024_kt  2025_kt  ...  reference_2025_KNBS  err_2024_%
+product                            ...                                 
+Diesel (AGO)      2193.6   2419.1  ...               2419.1         0.0
+Petrol (PMS)      1472.7   1657.5  ...                  NaN         0.0
+LPG                414.9    476.0  ...                475.9         0.0
+Jet fuel*          732.3    701.3  ...                  NaN        -4.3
+Fuel oil/other*    250.1    413.3  ...                  NaN       -17.2
+Kerosene (IK)       37.1     44.1  ...                  NaN         0.0
+Avgas                1.1      1.2  ...                  NaN         NaN
+Total             5101.8   5712.5  ...               5700.0         NaN
+
+[8 rows x 5 columns]
+diesel+petrol share 2025 %: 71.4
+date               2024    2025  growth%
+product                                 
+Diesel (AGO)     2193.6  2419.1     10.3
+Petrol (PMS)     1472.7  1657.5     12.5
+LPG               414.9   476.0     14.7
+Jet fuel*         732.3   701.3     -4.2
+Fuel oil/other*   250.1   413.3     65.2
+Kerosene (IK)      37.1    44.1     18.9
+Avgas               1.1     1.2     13.1
+Total            5101.8  5712.5     12.0
+date              2024   2025
+product                      
+Diesel (AGO)      43.0   42.3
+Petrol (PMS)      28.9   29.0
+LPG                8.1    8.3
+Jet fuel*         14.4   12.3
+Fuel oil/other*    4.9    7.2
+Kerosene (IK)      0.7    0.8
+Avgas              0.0    0.0
+Total            100.0  100.0
+YTD26 growth {'Diesel (AGO)': 9.0, 'Petrol (PMS)': 12.4, 'LPG': 11.0, 'Jet fuel*': -10.0, 'Fuel oil/other*': 0.2, 'Kerosene (IK)': 21.6, 'Avgas': 10.0, 'Total': 7.1}
+CV% {'Diesel (AGO)': 7.3, 'Petrol (PMS)': 9.2, 'LPG': 10.7, 'Jet fuel*': 5.6, 'Fuel oil/other*': 31.9, 'Kerosene (IK)': 12.3, 'Avgas': 32.1, 'Total': 7.8}
+product  Diesel (AGO)  Petrol (PMS)    LPG  Jet fuel*  Total
+date                                                        
+1               0.968         0.990  0.950      1.075  0.975
+2               0.943         0.916  0.836      1.000  0.927
+3               1.007         0.961  0.904      1.001  0.977
+4               0.960         0.973  0.954      0.953  0.965
+5               0.992         0.980  1.033      0.961  0.996
+6               0.916         0.905  0.980      0.962  0.917
+7               1.056         1.038  1.064      1.035  1.052
+8               1.064         1.030  1.092      1.002  1.059
+9               1.016         1.024  1.019      0.991  1.009
+10              1.080         1.071  1.047      0.994  1.074
+11              0.980         0.961  1.043      0.998  0.986
+12              1.018         1.150  1.078      1.028  1.064
+trend ann% {'Diesel (AGO)': np.float64(9.3), 'Petrol (PMS)': np.float64(12.8), 'LPG': np.float64(14.7), 'Jet fuel*': np.float64(-3.6), 'Fuel oil/other*': np.float64(44.6), 'Kerosene (IK)': np.float64(17.9), 'Avgas': np.float64(24.9), 'Total': np.float64(10.7)}
+corr LPG-IK levels 0.59 yoy -0.28
+          series                          model   MAPE  sMAPE    RMSE   MASE
+7   Diesel (AGO)        Seasonal naive x growth  2.703  2.754   7.798  0.308
+12     Jet fuel*                 Mean (last 6m)  3.561  3.551   2.253  0.391
+23           LPG        Seasonal naive x growth  3.113  3.092   1.710  0.246
+27  Petrol (PMS)  Log-trend + seasonal (shrunk)  3.618  3.499   6.922  0.317
+39         Total        Seasonal naive x growth  2.668  2.615  16.003  0.267
+series                         Diesel (AGO)  Jet fuel*  ...  Petrol (PMS)  Total
+model                                                   ...                     
+ARIMA(0,1,1)                           4.78       4.34  ...          7.24   5.19
+Damped-trend ETS                       4.31       4.51  ...          6.66   4.94
+Drift                                  6.56       5.69  ...          7.67   6.41
+Log-trend + seasonal (shrunk)          3.77       3.65  ...          3.50   3.41
+Mean (last 6m)                         4.89       3.55  ...          7.54   5.54
+Naive                                  5.57       5.18  ...          7.88   5.40
+Seasonal naive                        10.85       9.71  ...          9.90   9.53
+Seasonal naive x growth                2.75       5.10  ...          4.28   2.62
+
+[8 rows x 5 columns]
+/home/claude/proj/code/03_forecasting.py:66: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  F=pd.DataFrame(out,columns=['series','model','date','fc','lo80','hi80','lo95','hi95']); F.round(1).to_csv('data/clean/forecast_12m.csv',index=False)
+/home/claude/proj/code/03_forecasting.py:67: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  print(F[F.series.isin(['Diesel (AGO)','Total'])].round(1).to_string())
+          series                    model       date     fc   lo80   hi80   lo95   hi95
+0   Diesel (AGO)  Seasonal naive x growth 2026-03-01  217.1  208.9  225.2  204.6  229.5
+1   Diesel (AGO)  Seasonal naive x growth 2026-04-01  222.0  213.4  230.7  208.9  235.2
+2   Diesel (AGO)  Seasonal naive x growth 2026-05-01  221.8  213.0  230.7  208.3  235.4
+3   Diesel (AGO)  Seasonal naive x growth 2026-06-01  208.2  197.0  219.3  191.1  225.2
+4   Diesel (AGO)  Seasonal naive x growth 2026-07-01  238.5  226.4  250.5  220.1  256.9
+5   Diesel (AGO)  Seasonal naive x growth 2026-08-01  238.1  224.2  252.0  216.9  259.4
+6   Diesel (AGO)  Seasonal naive x growth 2026-09-01  229.4  214.4  244.4  206.4  252.3
+7   Diesel (AGO)  Seasonal naive x growth 2026-10-01  245.1  229.1  261.2  220.6  269.7
+8   Diesel (AGO)  Seasonal naive x growth 2026-11-01  219.3  202.3  236.3  193.3  245.3
+9   Diesel (AGO)  Seasonal naive x growth 2026-12-01  237.6  219.6  255.5  210.1  265.0
+10  Diesel (AGO)  Seasonal naive x growth 2027-01-01  234.1  215.3  253.0  205.4  262.9
+11  Diesel (AGO)  Seasonal naive x growth 2027-02-01  225.9  206.2  245.5  195.8  255.9
+48         Total  Seasonal naive x growth 2026-03-01  507.0  491.2  522.9  482.8  531.2
+49         Total  Seasonal naive x growth 2026-04-01  516.6  498.2  534.9  488.5  544.7
+50         Total  Seasonal naive x growth 2026-05-01  521.5  501.9  541.1  491.5  551.5
+51         Total  Seasonal naive x growth 2026-06-01  489.6  466.9  512.3  454.8  524.3
+52         Total  Seasonal naive x growth 2026-07-01  553.7  528.3  579.1  514.9  592.5
+53         Total  Seasonal naive x growth 2026-08-01  553.3  527.1  579.4  513.3  593.3
+54         Total  Seasonal naive x growth 2026-09-01  533.7  505.4  562.0  490.5  576.9
+55         Total  Seasonal naive x growth 2026-10-01  556.9  526.7  587.1  510.7  603.1
+56         Total  Seasonal naive x growth 2026-11-01  515.3  483.2  547.3  466.3  564.3
+57         Total  Seasonal naive x growth 2026-12-01  560.1  526.3  593.9  508.5  611.8
+58         Total  Seasonal naive x growth 2027-01-01  552.4  517.0  587.9  498.2  606.6
+59         Total  Seasonal naive x growth 2027-02-01  504.6  467.6  541.6  448.0  561.2
+                  fc    lo80    hi80    lo95    hi95
+series                                              
+Diesel (AGO)  2737.0  2570.0  2904.0  2482.0  2993.0
+Jet fuel*      684.0   646.0   723.0   625.0   744.0
+LPG            554.0   531.0   578.0   518.0   590.0
+Petrol (PMS)  1904.0  1795.0  2014.0  1737.0  2072.0
+Total         6365.0  6040.0  6689.0  5868.0  6861.0
+fuel_type   Charcoal  Illuminating Kerosene    L.P.G  Light Diesel Oil  Motor Gasoline Premium
+date                                                                                          
+2025-01-01     86.22                 152.18  3122.16            167.84                  177.25
+2025-02-01     86.51                 152.18  3139.65            167.84                  177.25
+2025-03-01     86.64                 152.18  3146.03            167.84                  177.25
+2025-04-01     86.72                 149.78  3156.19            165.64                  175.30
+2025-05-01     88.01                 149.78  3141.30            165.64                  175.30
+2025-06-01     88.89                 147.92  3134.91            163.89                  178.19
+2025-07-01     89.84                 157.76  3146.58            172.75                  187.37
+2025-08-01     89.83                 156.76  3158.35            172.75                  186.37
+2025-09-01     92.87                 155.96  3151.65            172.64                  185.59
+2025-10-01     92.78                 155.96  3133.49            172.64                  185.59
+2025-11-01     92.91                 155.96  3132.93            172.64                  185.59
+2025-12-01     93.31                 155.96  3145.90            172.64                  185.59
+2026-01-01     94.10                 154.96  3146.51            171.64                  183.59
+2026-02-01     94.03                 153.96  3134.75            167.72                  179.35
+2026-03-01     95.45                 153.96  3132.34            167.72                  179.35
+                        min      max     mean   cv%  chg_%_Jan25_Mar26
+fuel_type                                                             
+charcoal              86.22    95.45    90.54  3.59              10.71
+kerosene             147.92   157.76   153.68  1.90               1.17
+lpg13               3122.16  3158.35  3141.52  0.32               0.33
+diesel               163.89   172.75   169.46  1.87              -0.07
+petrol               175.30   187.37   181.26  2.47               1.18
+lpg_kg               240.17   242.95   241.66  0.32               0.33
+lpg_charcoal_ratio     2.52     2.80     2.67  3.63              -9.38
+distinct petrol/diesel price levels: 8 7
+Diesel (AGO) 14 price elasticity 1.65 NW se 0.47
+Petrol (PMS) 14 price elasticity 0.69 NW se 0.52
+        product   n  elasticity  se_NW  lo95  hi95  trend_%pa
+0  Diesel (AGO)  14        1.65   0.47  0.72  2.58       4.28
+1  Petrol (PMS)  14        0.69   0.52 -0.33  1.71       7.65
+        product  coef_ML_per_KSh  ...  SR_elasticity  LR_elasticity
+0  Petrol (PMS)           -1.024  ...         -0.096         -0.259
+1  Diesel (AGO)           -2.706  ...         -0.185         -0.570
+
+[2 rows x 7 columns]
+   USDKES  ...  passthrough_vs_VAT_inclusive
+0   125.0  ...                          0.84
+1   129.2  ...                          0.82
+2   135.0  ...                          0.78
+
+[3 rows x 6 columns]
+year                           2025    2026    2030    2035
+scenario    product                                        
+Baseline    Avgas               1.0     1.0     1.0     1.0
+            Diesel (AGO)     2419.0  2421.0  2574.0  2958.0
+            Fuel oil/other*   413.0   433.0   411.0   349.0
+            Jet fuel*         701.0   714.0   767.0   826.0
+            Kerosene (IK)      44.0    41.0    32.0    27.0
+            LPG               476.0   503.0   648.0   859.0
+            Petrol (PMS)     1657.0  1690.0  1873.0  2137.0
+High-demand Avgas               1.0     1.0     1.0     1.0
+            Diesel (AGO)     2419.0  2479.0  2802.0  3316.0
+            Fuel oil/other*   413.0   434.0   414.0   353.0
+            Jet fuel*         701.0   717.0   777.0   847.0
+            Kerosene (IK)      44.0    42.0    35.0    30.0
+            LPG               476.0   514.0   704.0   990.0
+            Petrol (PMS)     1657.0  1712.0  1969.0  2312.0
+Low-demand  Avgas               1.0     1.0     1.0     1.0
+            Diesel (AGO)     2419.0  2368.0  2372.0  2643.0
+            Fuel oil/other*   413.0   432.0   408.0   346.0
+            Jet fuel*         701.0   713.0   760.0   814.0
+            Kerosene (IK)      44.0    40.0    30.0    24.0
+            LPG               476.0   492.0   605.0   775.0
+            Petrol (PMS)     1657.0  1674.0  1812.0  2038.0
+year           2025    2026    2027    2028  ...    2032    2033    2034    2035
+scenario                                     ...                                
+Baseline     5712.0  5804.0  5903.0  5970.0  ...  6627.0  6797.0  6974.0  7157.0
+High-demand  5712.0  5898.0  6094.0  6262.0  ...  7131.0  7360.0  7599.0  7849.0
+Low-demand   5712.0  5720.0  5739.0  5728.0  ...  6236.0  6366.0  6501.0  6641.0
+
+[3 rows x 11 columns]
+        product  ...  ML_for_15d_operational
+0  Diesel (AGO)  ...                   118.2
+1  Petrol (PMS)  ...                    94.5
+2     Jet fuel*  ...                    36.6
+
+[3 rows x 6 columns]
+        product  days_low  ...  shortfall_ML_min  shortfall_ML_max
+0  Petrol (PMS)        13  ...              12.6             107.2
+1  Diesel (AGO)        16  ...              55.2             110.3
+
+[2 rows x 7 columns]
+    scenario  year  demand_kt  required_storage_kt  headroom_kt
+6   Baseline  2025      476.0                 42.9          1.5
+7   Baseline  2026      503.3                 45.4         -1.0
+8   Baseline  2027      535.9                 48.3         -3.9
+9   Baseline  2028      570.8                 51.5         -7.0
+10  Baseline  2029      612.2                 55.2        -10.8
+11  Baseline  2030      647.8                 58.4        -14.0
+              PDP_2025_fc_kt  Actual_2025_kt  error_%
+Petrol (PMS)          1554.0          1657.5      6.7
+Diesel (AGO)          2297.6          2419.1      5.3
+LPG                    446.2           476.0      6.7
+Total                 5425.5          5712.5      5.3
+              Demand volatility  Forecast uncertainty  Stock cover  Price shock  Infrastructure gap  Supply concentration  Score (base weights)  Score (equal)  Score (stock-heavy)  Rating
+Diesel (AGO)               2.31                  1.75          3.2         5.00                   1                     4                  3.07           2.88                 3.19  MEDIUM
+Petrol (PMS)               3.40                  2.50          3.8         3.67                   1                     4                  3.19           3.06                 3.34  MEDIUM
+LPG                        4.26                  2.09          4.0         3.00                   4                     4                  3.65           3.56                 3.63    HIGH
+Jet fuel*                  1.34                  2.55          1.0         3.00                   1                     3                  1.91           1.98                 1.79     LOW
+{'npv_project': np.float64(1550.51), 'npv_contractor': np.float64(-1262.01), 'npv_gov': np.float64(2812.51), 'gov_undisc': np.float64(7139.55), 'cum_mmbbl': np.float64(398.41), 'life_end': 2060, 'payback': 2034, 'irr_project': 0.15, 'irr_contractor': 0.06, 'gov_share_pct': np.float64(64.14)}
+breakeven Brent project/contractor 60.1 82.3
+        80%     90%    100%    110%    120%
+50  -2310.0 -1949.0 -1588.0 -1227.0  -866.0
+60  -1055.0  -537.0   -19.0   499.0  1017.0
+70    201.0   876.0  1551.0  2225.0  2900.0
+80   1456.0  2288.0  3120.0  3952.0  4784.0
+90   2712.0  3701.0  4689.0  5678.0  6667.0
+100  3968.0  5113.0  6259.0  7405.0  8550.0
+                                  driver  downside  upside   swing
+5            Price differential ($10/$2)    -628.0   628.0  1256.0
+3                Opex+tariff (+20%/-20%)    -659.0   659.0  1318.0
+4                 Discount rate (12%/8%)    -741.0   962.0  1704.0
+2                      CAPEX (+20%/-20%)   -1040.0  1040.0  2079.0
+1  Plateau output (-20%/+20% of 60 kbpd)   -1350.0  1350.0  2700.0
+0              Oil price (Brent $55-$85)   -2354.0  2354.0  4708.0
+   brent  plateau_kbpd  NPV_project  ...  gov_undisc  payback_year  cum_mmbbl
+0     50            60     -1588.46  ...     4908.44          2040     398.41
+1     50           100       569.25  ...     6899.20          2035     560.00
+2     70            60      1550.51  ...     7139.55          2034     398.41
+3     70           100      5605.64  ...    10832.00          2031     560.00
+4     90            60      4689.47  ...    11223.31          2032     398.41
+5     90           100     10642.03  ...    16992.00          2030     560.00
+
+[6 rows x 10 columns]
+                                   fiscal_case  ...  contractor_breakeven_brent
+0  Fiscal case A (cap 60%, gov profit oil 50%)  ...                       82.32
+1  Fiscal case A (cap 60%, gov profit oil 50%)  ...                       82.32
+2  Fiscal case A (cap 60%, gov profit oil 50%)  ...                       82.32
+3  Fiscal case B (cap 80%, gov profit oil 35%)  ...                       73.14
+4  Fiscal case B (cap 80%, gov profit oil 35%)  ...                       73.14
+5  Fiscal case B (cap 80%, gov profit oil 35%)  ...                       73.14
+
+[6 rows x 8 columns]
+                                          case  ...  vs_baseline_2035_%
+0                                     Baseline  ...                 0.0
+1                  Fade 0.6 (slower post-2029)  ...                -4.0
+2                           Fade 1.0 (no fade)  ...                 4.2
+3                          No 2026 price shock  ...                 6.0
+4                                   Shock x1.5  ...                -2.5
+5                            Elasticities x0.5  ...                 2.9
+6                              Elasticities x2  ...                -5.5
+7  Underlying growth +2 pts/yr (2025 momentum)  ...                17.5
+8                   Underlying growth -1 pt/yr  ...                -7.8
+
+[9 rows x 4 columns]
+          npv_project  npv_contractor  npv_gov
+0.1         -1746.000       -3888.000   2020.0
+0.5          1592.000       -1423.000   3064.0
+0.9          6633.000        1537.000   5136.0
+P(NPV<0)        0.298           0.729      0.0
+mean         2105.000       -1264.000   3369.0
+brent          0.86
+diff          -0.11
+plateau        0.45
+capex         -0.24
+opex_tariff   -0.11
+Name: npv_project, dtype: float64
+        product  volume_ML_2026base  landed_a_USD_m3  landed_b_USD_m3  bill_a_USDm  bill_b_USDm  increase_USDm  increase_KShbn                                                  comparison
+0  Petrol (PMS)              2346.0            582.1            874.3       1365.6       2051.0          685.4            88.6                                            Feb-26 vs Aug-26
+1  Diesel (AGO)              2878.8            855.6            957.0       2463.1       2755.2          292.1            37.7  Jul-26 vs Aug-26 (diesel Feb-26 landed cost not retrieved)
+   days_of_cover  volume_ML  inventory_USDm  inventory_KShbn  carry_10pct_USDm_pa  carry_10pct_KShbn_pa
+0             15      212.8           195.8             25.3                 19.6                   2.5
+1             30      425.5           391.6             50.6                 39.2                   5.1
+2             60      851.0           783.1            101.2                 78.3                  10.1
+3             90     1276.5          1174.7            151.8                117.5                  15.2
+   petrol_displaced_%     kt     ML  import_saving_USDm_at_Aug26_landed  KShbn
+0                 2.0   42.7   59.3                                51.9    6.7
+1                 5.0  106.9  148.3                               129.6   16.8
+2                10.0  213.7  296.7                               259.3   33.5
+3                20.0  427.5  593.3                               518.6   67.0
+     month  LPG_stove_eff  charcoal_stove_eff  LPG_KSh_per_useful_MJ  charcoal_KSh_per_useful_MJ  LPG_over_charcoal
+0  2025-01           0.55                0.20               9.492733                   14.865517           0.638574
+1  2026-03           0.55                0.20               9.523685                   16.456897           0.578705
+2  2025-01           0.55                0.25               9.492733                   11.892414           0.798218
+3  2026-03           0.55                0.25               9.523685                   13.165517           0.723381
+4  2025-01           0.55                0.30               9.492733                    9.910345           0.957861
+5  2026-03           0.55                0.30               9.523685                   10.971264           0.868057
+6  2025-01           0.45                0.30              11.602230                    9.910345           1.170719
+7  2026-03           0.45                0.30              11.640059                   10.971264           1.060959
+saved
