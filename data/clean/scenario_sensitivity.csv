@@ -1,0 +1,10 @@
+case,total_2030_kt,total_2035_kt,vs_baseline_2035_%
+Baseline,6305.7,7157.3,0.0
+Fade 0.6 (slower post-2029),6264.4,6870.7,-4.0
+Fade 1.0 (no fade),6347.0,7456.1,4.2
+No 2026 price shock,6678.5,7587.5,6.0
+Shock x1.5,6150.6,6978.3,-2.5
+Elasticities x0.5,6488.0,7367.7,2.9
+Elasticities x2,5963.9,6762.8,-5.5
+Underlying growth +2 pts/yr (2025 momentum),6873.1,8410.2,17.5
+Underlying growth -1 pt/yr,6037.3,6599.1,-7.8

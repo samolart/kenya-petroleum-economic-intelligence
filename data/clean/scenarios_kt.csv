@@ -1,0 +1,232 @@
+scenario,product,year,kt
+High-demand,Diesel (AGO),2025,2419.1200000000003
+High-demand,Diesel (AGO),2026,2478.5677110865754
+High-demand,Diesel (AGO),2027,2537.661660605265
+High-demand,Diesel (AGO),2028,2598.1645265937755
+High-demand,Diesel (AGO),2029,2709.365968331989
+High-demand,Diesel (AGO),2030,2802.134659087676
+High-demand,Diesel (AGO),2031,2898.079749814838
+High-demand,Diesel (AGO),2032,2997.310000448498
+High-demand,Diesel (AGO),2033,3099.937894863855
+High-demand,Diesel (AGO),2034,3206.0797683839937
+High-demand,Diesel (AGO),2035,3315.855939653462
+High-demand,Petrol (PMS),2025,1657.4799999999998
+High-demand,Petrol (PMS),2026,1712.4066263475568
+High-demand,Petrol (PMS),2027,1771.128808575458
+High-demand,Petrol (PMS),2028,1831.8647033366735
+High-demand,Petrol (PMS),2029,1906.6047832328097
+High-demand,Petrol (PMS),2030,1968.8363633575286
+High-demand,Petrol (PMS),2031,2033.0991822575184
+High-demand,Petrol (PMS),2032,2099.4595395664037
+High-demand,Petrol (PMS),2033,2167.9858989378513
+High-demand,Petrol (PMS),2034,2238.7489586791826
+High-demand,Petrol (PMS),2035,2311.821724690471
+High-demand,LPG,2025,475.95
+High-demand,LPG,2026,514.1521519620467
+High-demand,LPG,2027,557.456754486967
+High-demand,LPG,2028,604.4086987427061
+High-demand,LPG,2029,657.7175459718128
+High-demand,LPG,2030,704.1260960155839
+High-demand,LPG,2031,753.8092333504435
+High-demand,LPG,2032,806.9980128556507
+High-demand,LPG,2033,863.9397926427454
+High-demand,LPG,2034,924.8993844116175
+High-demand,LPG,2035,990.1602849757012
+High-demand,Jet fuel*,2025,701.34
+High-demand,Jet fuel*,2026,716.5590780000001
+High-demand,Jet fuel*,2027,732.1084099926002
+High-demand,Jet fuel*,2028,747.9951624894396
+High-demand,Jet fuel*,2029,764.2266575154605
+High-demand,Jet fuel*,2030,777.4936322899289
+High-demand,Jet fuel*,2031,790.9909217464821
+High-demand,Jet fuel*,2032,804.7225241480011
+High-demand,Jet fuel*,2033,818.6925071672104
+High-demand,Jet fuel*,2034,832.9050090916331
+High-demand,Jet fuel*,2035,847.3642400494639
+High-demand,Kerosene (IK),2025,44.120000000000005
+High-demand,Kerosene (IK),2026,41.6160718374291
+High-demand,Kerosene (IK),2027,39.44176121969716
+High-demand,Kerosene (IK),2028,37.38105158479826
+High-demand,Kerosene (IK),2029,35.93814299362504
+High-demand,Kerosene (IK),2030,34.8283731379819
+High-demand,Kerosene (IK),2031,33.75287297548102
+High-demand,Kerosene (IK),2032,32.710584257998164
+High-demand,Kerosene (IK),2033,31.70048141611118
+High-demand,Kerosene (IK),2034,30.721570549981667
+High-demand,Kerosene (IK),2035,29.772888451398234
+Baseline,Diesel (AGO),2025,2419.1200000000003
+Baseline,Diesel (AGO),2026,2421.2138236277165
+Baseline,Diesel (AGO),2027,2419.9980624130353
+Baseline,Diesel (AGO),2028,2418.7829116670855
+Baseline,Diesel (AGO),2029,2503.9240701577664
+Baseline,Diesel (AGO),2030,2574.434571973409
+Baseline,Diesel (AGO),2031,2646.9306495201804
+Baseline,Diesel (AGO),2032,2721.4682166106686
+Baseline,Diesel (AGO),2033,2798.104761590425
+Baseline,Diesel (AGO),2034,2876.8993916768113
+Baseline,Diesel (AGO),2035,2957.9128785464304
+Baseline,Petrol (PMS),2025,1657.4799999999998
+Baseline,Petrol (PMS),2026,1690.1754334316865
+Baseline,Petrol (PMS),2027,1727.0121460048933
+Baseline,Petrol (PMS),2028,1764.6517003224308
+Baseline,Petrol (PMS),2029,1823.7675322832324
+Baseline,Petrol (PMS),2030,1872.6445021484228
+Baseline,Petrol (PMS),2031,1922.8313748060004
+Baseline,Petrol (PMS),2032,1974.3632556508012
+Baseline,Petrol (PMS),2033,2027.2761909022424
+Baseline,Petrol (PMS),2034,2081.6071928184224
+Baseline,Petrol (PMS),2035,2137.394265585956
+Baseline,LPG,2025,475.95
+Baseline,LPG,2026,503.2574596160259
+Baseline,LPG,2027,535.9491200979434
+Baseline,LPG,2028,570.764434476378
+Baseline,LPG,2029,612.2019324193631
+Baseline,LPG,2030,647.7586206542796
+Baseline,LPG,2031,685.3804413418801
+Baseline,LPG,2032,725.1873373750165
+Baseline,LPG,2033,767.3062179297574
+Baseline,LPG,2034,811.8713630671176
+Baseline,LPG,2035,859.0248518340558
+Baseline,Jet fuel*,2025,701.34
+Baseline,Jet fuel*,2026,714.455058
+Baseline,Jet fuel*,2027,727.8153675845999
+Baseline,Jet fuel*,2028,741.4255149584319
+Baseline,Jet fuel*,2029,755.2901720881546
+Baseline,Jet fuel*,2030,766.5893130625934
+Baseline,Jet fuel*,2031,778.0574891860099
+Baseline,Jet fuel*,2032,789.6972292242326
+Baseline,Jet fuel*,2033,801.5110997734272
+Baseline,Jet fuel*,2034,813.5017058260378
+Baseline,Jet fuel*,2035,825.6716913451954
+Baseline,Kerosene (IK),2025,44.120000000000005
+Baseline,Kerosene (IK),2026,40.59608735785548
+Baseline,Kerosene (IK),2027,37.69570892619887
+Baseline,Kerosene (IK),2028,35.002547386472386
+Baseline,Kerosene (IK),2029,33.4029309709106
+Baseline,Kerosene (IK),2030,32.18171981461411
+Baseline,Kerosene (IK),2031,31.00515613819182
+Baseline,Kerosene (IK),2032,29.871607629779525
+Baseline,Kerosene (IK),2033,28.779501654834785
+Baseline,Kerosene (IK),2034,27.727323074334024
+Baseline,Kerosene (IK),2035,26.71361214273637
+Low-demand,Diesel (AGO),2025,2419.1200000000003
+Low-demand,Diesel (AGO),2026,2367.64972950585
+Low-demand,Diesel (AGO),2027,2312.7192713182153
+Low-demand,Diesel (AGO),2028,2259.0632226004873
+Low-demand,Diesel (AGO),2029,2320.961554899741
+Low-demand,Diesel (AGO),2030,2371.837032183143
+Low-demand,Diesel (AGO),2031,2423.827699928597
+Low-demand,Diesel (AGO),2032,2476.9580031110318
+Low-demand,Diesel (AGO),2033,2531.2529225392254
+Low-demand,Diesel (AGO),2034,2586.7379866012852
+Low-demand,Diesel (AGO),2035,2643.4392832675853
+Low-demand,Petrol (PMS),2025,1657.4799999999998
+Low-demand,Petrol (PMS),2026,1674.4356646501674
+Low-demand,Petrol (PMS),2027,1696.4491724878078
+Low-demand,Petrol (PMS),2028,1718.7520879972676
+Low-demand,Petrol (PMS),2029,1769.7990250107866
+Low-demand,Petrol (PMS),2030,1811.849449845043
+Low-demand,Petrol (PMS),2031,1854.8989927733612
+Low-demand,Petrol (PMS),2032,1898.9713928416563
+Low-demand,Petrol (PMS),2033,1944.0909531355742
+Low-demand,Petrol (PMS),2034,1990.2825541820755
+Low-demand,Petrol (PMS),2035,2037.5716676694417
+Low-demand,LPG,2025,475.95
+Low-demand,LPG,2026,492.4711574117792
+Low-demand,LPG,2027,516.5815163481333
+Low-demand,LPG,2028,541.8722680837225
+Low-demand,LPG,2029,576.2269698802304
+Low-demand,LPG,2030,605.4532017925558
+Low-demand,LPG,2031,636.1617881874743
+Low-demand,LPG,2032,668.427914084343
+Low-demand,LPG,2033,702.3305778867009
+Low-demand,LPG,2034,737.9527847971144
+Low-demand,LPG,2035,775.3817500420241
+Low-demand,Jet fuel*,2025,701.34
+Low-demand,Jet fuel*,2026,713.26278
+Low-demand,Jet fuel*,2027,725.38824726
+Low-demand,Jet fuel*,2028,737.7198474634199
+Low-demand,Jet fuel*,2029,750.261084870298
+Low-demand,Jet fuel*,2030,760.464635624534
+Low-demand,Jet fuel*,2031,770.8069546690277
+Low-demand,Jet fuel*,2032,781.2899292525266
+Low-demand,Jet fuel*,2033,791.915472290361
+Low-demand,Jet fuel*,2034,802.68552271351
+Low-demand,Jet fuel*,2035,813.6020458224137
+Low-demand,Kerosene (IK),2025,44.120000000000005
+Low-demand,Kerosene (IK),2026,39.64995236693192
+Low-demand,Kerosene (IK),2027,36.10330860768446
+Low-demand,Kerosene (IK),2028,32.873908154017855
+Low-demand,Kerosene (IK),2029,31.13487841267031
+Low-demand,Kerosene (IK),2030,29.817250358246103
+Low-demand,Kerosene (IK),2031,28.55538432308513
+Low-demand,Kerosene (IK),2032,27.346920458532164
+Low-demand,Kerosene (IK),2033,26.18959878472708
+Low-demand,Kerosene (IK),2034,25.08125496415743
+Low-demand,Kerosene (IK),2035,24.01981625407429
+High-demand,Fuel oil/other*,2025,413.26
+High-demand,Fuel oil/other*,2026,433.71637000000004
+High-demand,Fuel oil/other*,2027,455.1853303150001
+High-demand,Fuel oil/other*,2028,440.9380294761406
+High-demand,Fuel oil/other*,2029,427.1366691535374
+High-demand,Fuel oil/other*,2030,413.7672914090317
+High-demand,Fuel oil/other*,2031,400.816375187929
+High-demand,Fuel oil/other*,2032,388.2708226445468
+High-demand,Fuel oil/other*,2033,376.1179458957725
+High-demand,Fuel oil/other*,2034,364.34545418923483
+High-demand,Fuel oil/other*,2035,352.9414414731118
+High-demand,Avgas,2025,1.21
+High-demand,Avgas,2026,1.21
+High-demand,Avgas,2027,1.21
+High-demand,Avgas,2028,1.21
+High-demand,Avgas,2029,1.21
+High-demand,Avgas,2030,1.21
+High-demand,Avgas,2031,1.21
+High-demand,Avgas,2032,1.21
+High-demand,Avgas,2033,1.21
+High-demand,Avgas,2034,1.21
+High-demand,Avgas,2035,1.21
+Baseline,Fuel oil/other*,2025,413.26
+Baseline,Fuel oil/other*,2026,432.60056799999995
+Baseline,Fuel oil/other*,2027,452.84627458239993
+Baseline,Fuel oil/other*,2028,438.40047842322133
+Baseline,Fuel oil/other*,2029,424.4155031615206
+Baseline,Fuel oil/other*,2030,410.87664861066804
+Baseline,Fuel oil/other*,2031,397.7696835199877
+Baseline,Fuel oil/other*,2032,385.0808306157001
+Baseline,Fuel oil/other*,2033,372.79675211905925
+Baseline,Fuel oil/other*,2034,360.90453572646123
+Baseline,Fuel oil/other*,2035,349.39168103678713
+Baseline,Avgas,2025,1.21
+Baseline,Avgas,2026,1.21
+Baseline,Avgas,2027,1.21
+Baseline,Avgas,2028,1.21
+Baseline,Avgas,2029,1.21
+Baseline,Avgas,2030,1.21
+Baseline,Avgas,2031,1.21
+Baseline,Avgas,2032,1.21
+Baseline,Avgas,2033,1.21
+Baseline,Avgas,2034,1.21
+Baseline,Avgas,2035,1.21
+Low-demand,Fuel oil/other*,2025,413.26
+Low-demand,Fuel oil/other*,2026,431.608744
+Low-demand,Fuel oil/other*,2027,450.7721722336
+Low-demand,Fuel oil/other*,2028,436.0769994187846
+Low-demand,Fuel oil/other*,2029,421.86088923773224
+Low-demand,Fuel oil/other*,2030,408.1082242485822
+Low-demand,Fuel oil/other*,2031,394.8038961380784
+Low-demand,Fuel oil/other*,2032,381.9332891239771
+Low-demand,Fuel oil/other*,2033,369.48226389853545
+Low-demand,Fuel oil/other*,2034,357.4371420954432
+Low-demand,Fuel oil/other*,2035,345.7846912631318
+Low-demand,Avgas,2025,1.21
+Low-demand,Avgas,2026,1.21
+Low-demand,Avgas,2027,1.21
+Low-demand,Avgas,2028,1.21
+Low-demand,Avgas,2029,1.21
+Low-demand,Avgas,2030,1.21
+Low-demand,Avgas,2031,1.21
+Low-demand,Avgas,2032,1.21
+Low-demand,Avgas,2033,1.21
+Low-demand,Avgas,2034,1.21
+Low-demand,Avgas,2035,1.21

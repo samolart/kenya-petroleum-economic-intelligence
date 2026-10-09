@@ -1,0 +1,4 @@
+product,daily_demand_ML(2025),gross_capacity_ML,gross_days_if_full,ML_for_30d_cover,ML_for_15d_operational
+Diesel (AGO),7.9,755.0,95.8,236.4,118.2
+Petrol (PMS),6.3,462.6,73.4,189.1,94.5
+Jet fuel*,2.4,231.8,94.9,73.3,36.6

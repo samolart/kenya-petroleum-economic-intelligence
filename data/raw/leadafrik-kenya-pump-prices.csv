@@ -1,0 +1,5 @@
+# Kenya Pump Prices by Town — LeadAfrik Data — source: Energy & Petroleum Regulatory Authority (EPRA)
+# Free to cite and reuse with attribution to LeadAfrik Data (CC BY 4.0). Figures are the regulator's; LeadAfrik structures them and links each to its source document. Commercial redistribution as a product requires a Data API plan.
+# Cite: LeadAfrik Data (2026). Kenya Pump Prices by Town. https://leadafrik.com/data/fuel.
+# Blank = not printed in the source; never zero.
+town,fuel,period,metric,value,value_as_printed,unit,document_title,institution,source_url,source_page,source_table,document_id,ingested_at

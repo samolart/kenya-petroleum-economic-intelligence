@@ -1,0 +1,7 @@
+fiscal_case,brent,NPV_contractor,IRR_contractor,NPV_gov,gov_undisc,gov_share_pct,contractor_breakeven_brent
+"Fiscal case A (cap 60%, gov profit oil 50%)",60,-2392.036,0.017,2373.058,6023.992,84.28,82.322
+"Fiscal case A (cap 60%, gov profit oil 50%)",70,-1262.008,0.058,2812.514,7139.546,64.137,82.322
+"Fiscal case A (cap 60%, gov profit oil 50%)",80,-217.896,0.093,3337.884,9032.047,59.752,82.322
+"Fiscal case B (cap 80%, gov profit oil 35%)",60,-1437.487,0.051,1418.51,3900.087,54.565,73.135
+"Fiscal case B (cap 80%, gov profit oil 35%)",70,-329.963,0.088,1880.468,5553.497,49.889,73.135
+"Fiscal case B (cap 80%, gov profit oil 35%)",80,705.826,0.125,2414.162,7206.908,47.678,73.135
