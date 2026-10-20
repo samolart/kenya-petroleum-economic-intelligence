@@ -14,7 +14,7 @@ An evidence-based analysis of Kenya's petroleum demand, prices, supply security,
 
 **Headline data-quality finding:** the LeadAfrik monthly-consumption CSV has mislabelled product columns. The column labelled "LPG" is petrol and "Other" is LPG (exact match to EPRA PDP 2024 actuals; 2025 matches KNBS Economic Survey 2026). The project relabels them (see `code/common.py`).
 
-**Dashboard:** `[View Live Dashboard](https://samolart.github.io/kenya-petroleum-economic-intelligence/#overview), a self-contained interactive page (open in any browser).
+**Dashboard:** [View Live Dashboard](https://samolart.github.io/kenya-petroleum-economic-intelligence/#overview), a self-contained interactive page (open in any browser).
 
 **Not built:** Streamlit app, SQL warehouse (see LIMITATIONS.md).
 
